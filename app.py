@@ -4,6 +4,8 @@ model = pickle.load(open('RF_price_predicting_model.pkl','rb'))
 
 
 def main():
+    string = "Car Price Predictor"
+    st.set_page_config(page_title=string, page_icon="🚗")
     st.title("Selling Price Predictor 🚗")
     st.markdown("##### Are you planning to sell your car !?\n##### So let's try evaluating the price.. 🤖 ")
 
