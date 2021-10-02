@@ -11,6 +11,10 @@ def main():
     # def get_model():
     #     model = pickle.load(open('RF_price_predicting_model.pkl','rb'))
     #     return model
+    st.image(
+            "https://imgd.aeplcdn.com/0x0/n/cw/ec/27032/s60-exterior-right-front-three-quarter-3.jpeg",
+            width=400, # Manually Adjust the width of the image as per requirement
+        )
 
     st.write('')
     st.write('')
